@@ -1,0 +1,42 @@
+.peachpopcont {display:inline-block; cursor:pointer;}
+span.peachpop {
+	position: absolute;
+	background: #273B4A;
+	padding:10px;
+	color:#fff;
+	font-size:13px;
+	line-height:133%;
+	font-style: normal;
+	font-weight: normal;
+	bottom: 70px;
+    border-radius: 5px;
+	cursor: pointer;
+	display:none;
+}
+
+span.peachpop:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 40%;
+	width: 0;
+	height: 0;
+	border:6px solid transparent;
+	border-top-color: #273B4A;
+	border-bottom: 0;
+	margin-left: -6px;
+	margin-bottom: -6px;
+}
+
+.peach-error {
+	display:block;
+	padding:10px 5px;
+	background-color:#C00;
+	color:#FFF;
+}
+
+.peach-error a{
+	font-weight:bold;
+	color:#FFF;
+	text-decoration:underline !important;
+}
